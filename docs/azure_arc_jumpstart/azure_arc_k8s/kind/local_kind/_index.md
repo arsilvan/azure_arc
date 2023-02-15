@@ -50,7 +50,7 @@ The following Jumpstart scenario will guide you on how to use [kind](https://kin
 
     ```shell
     az login
-    subscriptionId=$(az account show --query id --output tsv)
+    $subscriptionId=$(az account show --query id --output tsv)
     az ad sp create-for-rbac -n "JumpstartArcK8s" --role "Contributor" --scopes /subscriptions/$subscriptionId
     ```
 
