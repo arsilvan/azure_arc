@@ -118,8 +118,10 @@ The following Jumpstart scenario will guide you on how to use [kind](https://kin
   ```
 
   On Windows:
+  install chocolatey from https://chocolatey.org/install
 
-  ```powershell
+```powershell
+
   choco install kind
   ```
 
